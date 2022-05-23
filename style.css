@@ -1,0 +1,77 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    list-style:none;
+
+}
+
+header{
+    width:100%;
+    height:105vh;
+    background-image:url(./star\ uó\ topo.png);
+    background-repeat:no-repeat;
+    background-size: 100%;
+}
+
+
+
+
+.topo{
+ width: 100%;
+ height:100%;
+ position:relative;
+ 
+}
+
+.star-wars{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   
+}
+
+.topo img.star{
+    width:330px; 
+    position:absolute;
+    top:380px;
+    right:900px;
+
+}
+
+.kyloren{
+    width:68vw;
+    position:absolute;
+    top:15px;
+    right:320px;
+}
+
+.topo img.wars{
+    width:330px; 
+    position:absolute;
+    top:380px;
+    right:230px;
+}
+
+.legiao{
+    width:120px; 
+    position:absolute;
+    top:510px;
+    right:230px;
+}
+
+.setaesquerda{
+    position:absolute;
+    top:610px;
+    right:290px;
+    cursor: pointer;
+    
+}
+
+.setadireita{
+    position:absolute;
+    top:610px;
+    right:270px;
+    
+    cursor:pointer;
+}
