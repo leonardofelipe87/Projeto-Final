@@ -286,3 +286,119 @@ li{
     top:-6.5vw;
     right: -22vw;
 }
+
+ main{      
+      width: 100%;
+      height:200vh;
+     background-color:#2D2D2D;
+      position: relative;
+      top: 70vw; 
+      z-index: -2;
+      border: solid;
+    }
+
+.atributos{
+    color:#ffffff;
+    font-family: Sovereign;
+    position: absolute;
+    font-size: 40px;
+    font-weight: 500;
+    top: 10vw;
+    right:71vw;
+}
+
+.fiveimg{
+    width: 85%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    position: relative;
+    top: 16vw;
+    right: -9vw;
+}
+
+.batalha1 img{
+    width: 45.5vw;
+    height:100%;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.batalha2 img{
+    width: 22.3vw;
+    height:100%;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.batalha3 img{
+    width: 23vw;
+    height:100%;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+
+.img1:hover{
+    background-image: url(./Grupo\ novos\ graficos.svg);
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+    cursor: pointer;
+    -webkit-transform: scale(1.0);
+    transform: scale(1.1);
+    background-size: 47vw;
+    background-color: red; 
+    
+    }
+  
+.img2:hover{
+    background-image: url(./Grupo\ novos\ graficos-svg2.png);
+    background-repeat: no-repeat;
+    background-size: 105%;
+    background-color: blue;
+    transition: all 0.5s;
+    cursor: pointer;
+    -webkit-transform: scale(1.0);
+    transform: scale(1.1);
+        
+}
+
+.img3:hover{
+    background-image: url(./Grupo\ novos\ graficos-svg3.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color:purple;
+    transition: all 0.5s;
+    cursor: pointer;
+    -webkit-transform: scale(1.0);
+    transform: scale(1.1);
+        
+}
+
+
+.img4:hover{
+    background-image: url(./Grupo\ novos\ graficos-svg4.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color:#8B1C62;
+    transition: all 0.5s;
+    cursor: pointer;
+    -webkit-transform: scale(1.0);
+    transform: scale(1.1);
+        
+}
+
+
+.img5:hover{
+    background-image: url(./Grupo\ novos\ graficos-svg5.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color:DarkSlateGray;
+    transition: all 0.5s;
+    cursor: pointer;
+    -webkit-transform: scale(1.0);
+    transform: scale(1.1);
+        
+}
+
