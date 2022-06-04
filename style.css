@@ -242,6 +242,7 @@ header{
     right: 25%;
     font-size: 50px;
     font-weight: 500;
+    
       
 }
 
@@ -266,12 +267,14 @@ li{
     text-align: end;  
     margin-bottom:18px; 
     font-weight: 500;
+    
          
-    }
-    li:hover{
+}
+
+li:hover{
     transition: 0.5s ease-in-out;
     background-color:tomato;
-    }
+}
 
 .lord{
     width:87%;
@@ -287,35 +290,38 @@ li{
     right: -22vw;
 }
 
- main{      
-      width: 100%;
-      height:200vh;
-     background-color:#2D2D2D;
-      position: relative;
-      top: 70vw; 
-      z-index: -2;
-      border: solid;
-    }
+main{   
+
+width: 100%;
+height:130vw;
+background-color:#2D2D2D;
+position:absolute;
+top:112vw; 
+z-index:-2;
+border:solid;
+}
 
 .atributos{
-    color:#ffffff;
-    font-family: Sovereign;
-    position: absolute;
-    font-size: 40px;
-    font-weight: 500;
-    top: 10vw;
-    right:71vw;
+
+color:#ffffff;
+font-family: Sovereign;
+position: absolute;
+font-size: 40px;
+font-weight: 500;
+top: 10vw;
+right:71vw;
 }
 
 .fiveimg{
-    width: 85%;
-    height: 30%;
+    width: 70vw;
+    height: 20vw;
     display: flex;
     justify-content: center;
     align-items: center;   
-    position: relative;
-    top: 16vw;
-    right: -9vw;
+    position: absolute;
+    top: 20vw;
+    right: 15vw;
+   
 }
 
 .batalha1 img{
@@ -347,20 +353,23 @@ li{
     cursor: pointer;
     -webkit-transform: scale(1.0);
     transform: scale(1.1);
-    background-size: 47vw;
+    background-size: 100%;
     background-color: red; 
+    position: relative;
     
     }
   
 .img2:hover{
     background-image: url(./Grupo\ novos\ graficos-svg2.png);
     background-repeat: no-repeat;
-    background-size: 105%;
+    background-size: 100%;
     background-color: blue;
     transition: all 0.5s;
     cursor: pointer;
     -webkit-transform: scale(1.0);
     transform: scale(1.1);
+    position: relative;
+    border: solid;
         
 }
 
@@ -373,6 +382,7 @@ li{
     cursor: pointer;
     -webkit-transform: scale(1.0);
     transform: scale(1.1);
+    position: relative;
         
 }
 
@@ -386,6 +396,7 @@ li{
     cursor: pointer;
     -webkit-transform: scale(1.0);
     transform: scale(1.1);
+    position: relative;
         
 }
 
@@ -399,6 +410,70 @@ li{
     cursor: pointer;
     -webkit-transform: scale(1.0);
     transform: scale(1.1);
+    position: relative;
         
 }
 
+.hierarquia{
+    width: 30%;   
+    height: 38%;   
+    position: absolute;
+    top:26vw;
+    right:59vw;   
+     
+}
+.hierarquia img{
+    width: 90vw;
+    height:50vw;
+}
+  
+
+.fig-hierarquia{
+    width:50vw;
+    text-align: end;  
+    font-size: 18px;   
+    position: absolute;
+    margin-top:1vw ;
+    left: 40vw;
+    color: #ffffff;
+    opacity: 60%;
+    
+}
+.como{
+    width: 25vw;
+    height: 4vw; 
+    font-size: 46px;
+    font-weight: 900;
+    color: #ffffff;
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    top:70vw;
+    right: -40vw;
+    
+}
+
+.final-main{
+    width: 100%;
+    height: 70vw;
+    position: absolute;
+    display: flex;
+    top: 80vw;
+    right: 15vw;
+    
+}
+
+.trooper{
+    width: 40vw;
+    height: 60vw;
+    position: absolute;
+    top: -1vw;
+    
+}
+
+.trooper img{
+    width: 40vw;
+}
+    
+   
